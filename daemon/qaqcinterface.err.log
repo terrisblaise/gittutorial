@@ -1,0 +1,63 @@
+(node:1960) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ConnectionError: Failed to connect to localhost:1433 - Could not connect (sequence)
+(node:2784) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ConnectionError: Failed to connect to NBTSSSQL01:undefined in 15000ms
+(node:2780) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ConnectionError: Failed to connect to NBTSSSQL01:undefined in 15000ms
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::5000
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (C:\WebApps\qaqcinterface\app.js:214:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::5000
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (C:\WebApps\qaqcinterface\app.js:214:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::5000
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at Object.<anonymous> (C:\WebApps\qaqcinterface\app.js:214:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+         ^
+
+TypeError: Cannot read property 'send' of null
+    at process.killkid (C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js:177:10)
+    at emitOne (events.js:96:13)
+    at process.emit (events.js:188:7)
+    at process.exit (internal/process.js:164:15)
+    at monitor (C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js:170:5)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)
+(node:2804) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ConnectionError: Failed to connect to NBTSSSQL01:undefined in 15000ms

@@ -1,0 +1,153 @@
+2017-05-12 13:58:31 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-05-12 13:58:31 - Started 5420
+2017-05-15 12:45:28 - Stopping qaqcinterface.exe
+2017-05-15 12:45:28 - ProcessKill 5420
+2017-05-15 12:45:28 - Found child process: 5472 Name: conhost.exe
+2017-05-15 12:45:28 - Found child process: 6456 Name: node.exe
+2017-05-15 12:45:28 - Stopping process 5472
+2017-05-15 12:45:28 - Send SIGINT 5472
+2017-05-15 12:45:28 - SIGINT to 5472 failed - Killing as fallback
+2017-05-15 12:45:28 - Stopping process 6456
+2017-05-15 12:45:28 - Send SIGINT 6456
+2017-05-15 12:45:28 - SIGINT to 6456 failed - Killing as fallback
+2017-05-15 12:45:28 - Stopping process 5420
+2017-05-15 12:45:28 - Send SIGINT 5420
+2017-05-15 12:45:28 - SIGINT to 5420 failed - Killing as fallback
+2017-05-15 12:45:28 - Finished qaqcinterface.exe
+2017-05-15 12:50:25 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-05-15 12:50:25 - Started 11768
+2017-05-15 12:51:14 - Stopping qaqcinterface.exe
+2017-05-15 12:51:14 - ProcessKill 11768
+2017-05-15 12:51:15 - Found child process: 6840 Name: conhost.exe
+2017-05-15 12:51:15 - Found child process: 1960 Name: node.exe
+2017-05-15 12:51:15 - Stopping process 6840
+2017-05-15 12:51:15 - Send SIGINT 6840
+2017-05-15 12:51:15 - SIGINT to 6840 failed - Killing as fallback
+2017-05-15 12:51:15 - Stopping process 1960
+2017-05-15 12:51:15 - Send SIGINT 1960
+2017-05-15 12:51:15 - SIGINT to 1960 failed - Killing as fallback
+2017-05-15 12:51:15 - Stopping process 11768
+2017-05-15 12:51:15 - Send SIGINT 11768
+2017-05-15 12:51:15 - SIGINT to 11768 failed - Killing as fallback
+2017-05-15 12:51:15 - Finished qaqcinterface.exe
+2017-05-15 12:51:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-05-15 12:51:36 - Started 13168
+2017-05-16 11:24:08 - Stopping qaqcinterface.exe
+2017-05-16 11:24:08 - ProcessKill 13168
+2017-05-16 11:24:08 - Found child process: 12584 Name: conhost.exe
+2017-05-16 11:24:08 - Found child process: 11452 Name: node.exe
+2017-05-16 11:24:08 - Stopping process 12584
+2017-05-16 11:24:08 - Send SIGINT 12584
+2017-05-16 11:24:08 - SIGINT to 12584 failed - Killing as fallback
+2017-05-16 11:24:08 - Stopping process 11452
+2017-05-16 11:24:08 - Send SIGINT 11452
+2017-05-16 11:24:08 - SIGINT to 11452 failed - Killing as fallback
+2017-05-16 11:24:08 - Stopping process 13168
+2017-05-16 11:24:08 - Send SIGINT 13168
+2017-05-16 11:24:08 - SIGINT to 13168 failed - Killing as fallback
+2017-05-16 11:24:08 - Finished qaqcinterface.exe
+2017-05-16 15:56:06 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-05-16 15:56:06 - Started 5224
+2017-06-15 16:59:44 - Stopping qaqcinterface.exe
+2017-06-15 16:59:44 - Finished qaqcinterface.exe
+2017-06-15 17:00:44 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-06-15 17:00:44 - Started 2704
+2017-06-19 12:52:16 - Stopping qaqcinterface.exe
+2017-06-19 12:52:16 - ProcessKill 2704
+2017-06-19 12:52:16 - Found child process: 2716 Name: conhost.exe
+2017-06-19 12:52:16 - Found child process: 2784 Name: node.exe
+2017-06-19 12:52:17 - Stopping process 2716
+2017-06-19 12:52:17 - Send SIGINT 2716
+2017-06-19 12:52:17 - SIGINT to 2716 failed - Killing as fallback
+2017-06-19 12:52:17 - Stopping process 2784
+2017-06-19 12:52:17 - Send SIGINT 2784
+2017-06-19 12:52:17 - SIGINT to 2784 failed - Killing as fallback
+2017-06-19 12:52:17 - Stopping process 2704
+2017-06-19 12:52:17 - Send SIGINT 2704
+2017-06-19 12:52:17 - SIGINT to 2704 failed - Killing as fallback
+2017-06-19 12:52:17 - Finished qaqcinterface.exe
+2017-06-19 14:26:48 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-06-19 14:26:48 - Started 13012
+2017-06-20 15:10:50 - Stopping qaqcinterface.exe
+2017-06-20 15:10:50 - ProcessKill 13012
+2017-06-20 15:10:51 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2017-06-20 15:11:45 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-06-20 15:11:45 - Started 2700
+2017-06-21 16:15:09 - Stopping qaqcinterface.exe
+2017-06-21 16:15:09 - ProcessKill 2700
+2017-06-21 16:15:10 - Found child process: 2712 Name: conhost.exe
+2017-06-21 16:15:10 - Found child process: 2780 Name: node.exe
+2017-06-21 16:15:10 - Stopping process 2712
+2017-06-21 16:15:10 - Send SIGINT 2712
+2017-06-21 16:15:10 - SIGINT to 2712 failed - Killing as fallback
+2017-06-21 16:15:10 - Stopping process 2780
+2017-06-21 16:15:10 - Send SIGINT 2780
+2017-06-21 16:15:10 - SIGINT to 2780 failed - Killing as fallback
+2017-06-21 16:15:10 - Stopping process 2700
+2017-06-21 16:15:10 - Send SIGINT 2700
+2017-06-21 16:15:10 - SIGINT to 2700 failed - Killing as fallback
+2017-06-21 16:15:10 - Finished qaqcinterface.exe
+2017-06-29 09:21:58 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-06-29 09:21:59 - Started 12012
+2017-08-04 11:38:16 - Stopping qaqcinterface.exe
+2017-08-04 11:38:16 - Finished qaqcinterface.exe
+2017-08-04 11:39:57 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-08-04 11:39:57 - Started 13300
+2017-08-04 11:41:36 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-08-04 11:41:36 - Started 2724
+2017-08-04 11:42:44 - Stopping qaqcinterface.exe
+2017-08-04 11:42:44 - ProcessKill 2724
+2017-08-04 11:42:45 - Found child process: 2736 Name: conhost.exe
+2017-08-04 11:42:45 - Found child process: 2804 Name: node.exe
+2017-08-04 11:42:45 - Stopping process 2736
+2017-08-04 11:42:45 - Send SIGINT 2736
+2017-08-04 11:42:45 - SIGINT to 2736 failed - Killing as fallback
+2017-08-04 11:42:45 - Stopping process 2804
+2017-08-04 11:42:45 - Send SIGINT 2804
+2017-08-04 11:42:45 - SIGINT to 2804 failed - Killing as fallback
+2017-08-04 11:42:45 - Stopping process 2724
+2017-08-04 11:42:45 - Send SIGINT 2724
+2017-08-04 11:42:45 - SIGINT to 2724 failed - Killing as fallback
+2017-08-04 11:42:45 - Finished qaqcinterface.exe
+2017-08-04 14:16:18 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-08-04 14:16:18 - Started 10096
+2017-08-23 16:14:10 - Stopping qaqcinterface.exe
+2017-08-23 16:14:10 - ProcessKill 10096
+2017-08-23 16:14:10 - Found child process: 8696 Name: conhost.exe
+2017-08-23 16:14:10 - Found child process: 7260 Name: node.exe
+2017-08-23 16:14:10 - Stopping process 8696
+2017-08-23 16:14:10 - Send SIGINT 8696
+2017-08-23 16:14:10 - SIGINT to 8696 failed - Killing as fallback
+2017-08-23 16:14:10 - Stopping process 7260
+2017-08-23 16:14:10 - Send SIGINT 7260
+2017-08-23 16:14:10 - SIGINT to 7260 failed - Killing as fallback
+2017-08-23 16:14:10 - Stopping process 10096
+2017-08-23 16:14:10 - Send SIGINT 10096
+2017-08-23 16:14:10 - SIGINT to 10096 failed - Killing as fallback
+2017-08-23 16:14:10 - Finished qaqcinterface.exe
+2017-08-23 16:27:21 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\jteng.admin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\WebApps\qaqcinterface\app.js --log "qaqcinterface wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2017-08-23 16:27:21 - Started 308
+2017-09-06 11:56:04 - Stopping qaqcinterface.exe
+2017-09-06 11:56:04 - ProcessKill 308
+2017-09-06 11:56:04 - Found child process: 11340 Name: conhost.exe
+2017-09-06 11:56:04 - Found child process: 3976 Name: node.exe
+2017-09-06 11:56:04 - Stopping process 11340
+2017-09-06 11:56:04 - Send SIGINT 11340
+2017-09-06 11:56:04 - SIGINT to 11340 failed - Killing as fallback
+2017-09-06 11:56:04 - Stopping process 3976
+2017-09-06 11:56:04 - Send SIGINT 3976
+2017-09-06 11:56:04 - SIGINT to 3976 failed - Killing as fallback
+2017-09-06 11:56:04 - Stopping process 308
+2017-09-06 11:56:04 - Send SIGINT 308
+2017-09-06 11:56:04 - SIGINT to 308 failed - Killing as fallback
+2017-09-06 11:56:04 - Finished qaqcinterface.exe

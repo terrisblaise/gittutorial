@@ -1,0 +1,2333 @@
+Server is running..
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+Server is running..
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:72:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:84:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:72:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:84:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+Server is running..
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+1
+20170101
+20170110
+EXEC spGetQC 1,"20170101","20170110"
+1
+20170501
+20170510
+EXEC spGetQC 1,"20170501","20170510"
+1
+20170415
+20170510
+EXEC spGetQC 1,"20170415","20170510"
+1
+20170501
+20170510
+EXEC spGetQC 1,"20170501","20170510"
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170501","lastEndDate":"20170510"}
+1
+20170401
+20170430
+EXEC spGetQC 1,"20170401","20170430"
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170401","lastEndDate":"20170430"}
+2
+20170401
+20170414
+EXEC spGetQC 2,"20170401","20170414"
+2
+20170401
+20170404
+EXEC spGetQC 2,"20170401","20170404"
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170401","lastEndDate":"20170404"}
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170401","lastEndDate":"20170404"}
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170401","lastEndDate":"20170404"}
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170401","lastEndDate":"20170404"}
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170401","lastEndDate":"20170404"}
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170401","lastEndDate":"20170404"}
+DHF
+DHF
+DHF
+DHF
+exec spUpdateDataValidation 1, "6696", "DHF"
+exec spUpdateDataValidation 1, "6697", "DHF"
+exec spUpdateDataValidation 1, "6698", "DHF"
+exec spUpdateDataValidation 1, "6699", "DHF"
+exec spUpdateDataValidation 1, "14929", "DHF"
+exec spUpdateDataValidation 1, "6700", "DHF"
+exec spUpdateDataValidation 1, "6701", "DHF"
+exec spUpdateDataValidation 1, "14931", "DHF"
+exec spUpdateDataValidation 1, "6702", "DHF"
+exec spUpdateDataValidation 1, "14932", "DHF"
+exec spUpdateDataValidation 1, "14933", "DHF"
+exec spUpdateDataValidation 1, "6704", "DHF"
+exec spUpdateDataValidation 1, "14934", "DHF"
+exec spUpdateDataValidation 1, "6705", "DHF"
+exec spUpdateDataValidation 1, "14935", "DHF"
+exec spUpdateDataValidation 1, "6706", "DHF"
+exec spUpdateDataValidation 1, "14936", "DHF"
+exec spUpdateDataValidation 1, "6707", "DHF"
+exec spUpdateDataValidation 1, "14937", "DHF"
+exec spUpdateDataValidation 1, "6708", "DHF"
+exec spUpdateDataValidation 1, "14938", "DHF"
+exec spUpdateDataValidation 1, "6709", "DHF"
+exec spUpdateDataValidation 1, "14939", "DHF"
+exec spUpdateDataValidation 1, "6710", "DHF"
+exec spUpdateDataValidation 1, "14940", "DHF"
+exec spUpdateDataValidation 1, "6711", "DHF"
+exec spUpdateDataValidation 1, "14941", "DHF"
+exec spUpdateDataValidation 1, "6712", "DHF"
+exec spUpdateDataValidation 1, "14942", "DHF"
+exec spUpdateDataValidation 1, "6713", "DHF"
+exec spUpdateDataValidation 1, "14943", "DHF"
+exec spUpdateDataValidation 1, "6714", "DHF"
+exec spUpdateDataValidation 1, "14944", "DHF"
+exec spUpdateDataValidation 1, "6715", "DHF"
+exec spUpdateDataValidation 1, "14945", "DHF"
+exec spUpdateDataValidation 1, "6716", "DHF"
+exec spUpdateDataValidation 1, "14946", "DHF"
+exec spUpdateDataValidation 1, "6717", "DHF"
+exec spUpdateDataValidation 1, "14947", "DHF"
+exec spUpdateDataValidation 1, "6718", "DHF"
+exec spUpdateDataValidation 1, "14948", "DHF"
+exec spUpdateDataValidation 1, "6719", "DHF"
+exec spUpdateDataValidation 1, "14949", "DHF"
+exec spUpdateDataValidation 1, "6720", "DHF"
+exec spUpdateDataValidation 1, "14950", "DHF"
+exec spUpdateDataValidation 1, "6721", "DHF"
+exec spUpdateDataValidation 1, "14951", "DHF"
+exec spUpdateDataValidation 1, "6722", "DHF"
+exec spUpdateDataValidation 1, "14952", "DHF"
+exec spUpdateDataValidation 1, "6723", "DHF"
+exec spUpdateDataValidation 1, "14953", "DHF"
+exec spUpdateDataValidation 1, "6724", "DHF"
+exec spUpdateDataValidation 1, "14954", "DHF"
+exec spUpdateDataValidation 1, "6725", "DHF"
+exec spUpdateDataValidation 1, "14955", "DHF"
+exec spUpdateDataValidation 1, "6726", "DHF"
+exec spUpdateDataValidation 1, "14957", "DHF"
+exec spUpdateDataValidation 1, "6728", "DHF"
+exec spUpdateDataValidation 1, "14958", "DHF"
+exec spUpdateDataValidation 1, "6729", "DHF"
+exec spUpdateDataValidation 1, "14959", "DHF"
+exec spUpdateDataValidation 1, "6730", "DHF"
+exec spUpdateDataValidation 1, "14960", "DHF"
+exec spUpdateDataValidation 1, "6731", "DHF"
+exec spUpdateDataValidation 1, "14961", "DHF"
+exec spUpdateDataValidation 1, "6732", "DHF"
+exec spUpdateDataValidation 1, "14962", "DHF"
+exec spUpdateDataValidation 1, "6733", "DHF"
+exec spUpdateDataValidation 1, "14963", "DHF"
+exec spUpdateDataValidation 1, "6734", "DHF"
+exec spUpdateDataValidation 1, "14964", "DHF"
+exec spUpdateDataValidation 1, "6735", "DHF"
+exec spUpdateDataValidation 1, "6736", "DHF"
+exec spUpdateDataValidation 1, "14966", "DHF"
+exec spUpdateDataValidation 1, "6737", "DHF"
+exec spUpdateDataValidation 1, "14967", "DHF"
+exec spUpdateDataValidation 1, "6738", "DHF"
+exec spUpdateDataValidation 1, "6739", "DHF"
+exec spUpdateDataValidation 1, "14969", "DHF"
+exec spUpdateDataValidation 1, "6740", "DHF"
+exec spUpdateDataValidation 1, "14970", "DHF"
+exec spUpdateDataValidation 1, "6741", "DHF"
+exec spUpdateDataValidation 1, "14971", "DHF"
+exec spUpdateDataValidation 1, "6742", "DHF"
+exec spUpdateDataValidation 1, "6743", "DHF"
+exec spUpdateDataValidation 1, "14973", "DHF"
+exec spUpdateDataValidation 1, "14974", "DHF"
+exec spUpdateDataValidation 1, "6746", "DHF"
+exec spUpdateDataValidation 1, "14976", "DHF"
+exec spUpdateDataValidation 1, "6747", "DHF"
+exec spUpdateDataValidation 1, "6748", "DHF"
+exec spUpdateDataValidation 1, "6749", "DHF"
+exec spUpdateDataValidation 1, "6750", "DHF"
+exec spUpdateDataValidation 1, "14980", "DHF"
+exec spUpdateDataValidation 1, "6751", "DHF"
+exec spUpdateDataValidation 1, "6752", "DHF"
+exec spUpdateDataValidation 1, "14982", "DHF"
+exec spUpdateDataValidation 1, "6753", "DHF"
+exec spUpdateDataValidation 1, "14983", "DHF"
+exec spUpdateDataValidation 1, "6754", "DHF"
+exec spUpdateDataValidation 1, "14984", "DHF"
+exec spUpdateDataValidation 1, "6755", "DHF"
+exec spUpdateDataValidation 1, "14985", "DHF"
+exec spUpdateDataValidation 1, "6756", "DHF"
+exec spUpdateDataValidation 1, "14986", "DHF"
+exec spUpdateDataValidation 1, "6757", "DHF"
+exec spUpdateDataValidation 1, "14987", "DHF"
+exec spUpdateDataValidation 1, "6758", "DHF"
+exec spUpdateDataValidation 1, "14988", "DHF"
+exec spUpdateDataValidation 1, "6759", "DHF"
+exec spUpdateDataValidation 1, "14989", "DHF"
+exec spUpdateDataValidation 1, "6760", "DHF"
+exec spUpdateDataValidation 1, "14990", "DHF"
+exec spUpdateDataValidation 1, "6761", "DHF"
+exec spUpdateDataValidation 1, "14991", "DHF"
+exec spUpdateDataValidation 1, "6762", "DHF"
+exec spUpdateDataValidation 1, "14992", "DHF"
+exec spUpdateDataValidation 1, "6763", "DHF"
+exec spUpdateDataValidation 1, "14993", "DHF"
+exec spUpdateDataValidation 1, "6764", "DHF"
+exec spUpdateDataValidation 1, "6765", "DHF"
+exec spUpdateDataValidation 1, "14995", "DHF"
+exec spUpdateDataValidation 1, "6766", "DHF"
+exec spUpdateDataValidation 1, "14996", "DHF"
+exec spUpdateDataValidation 1, "6767", "DHF"
+exec spUpdateDataValidation 1, "14997", "DHF"
+exec spUpdateDataValidation 1, "6768", "DHF"
+exec spUpdateDataValidation 2, "14925", "DHF"
+exec spUpdateDataValidation 2, "14926", "DHF"
+exec spUpdateDataValidation 2, "14927", "DHF"
+exec spUpdateDataValidation 2, "14928", "DHF"
+exec spUpdateDataValidation 2, "14930", "DHF"
+exec spUpdateDataValidation 2, "6703", "DHF"
+exec spUpdateDataValidation 2, "14956", "DHF"
+exec spUpdateDataValidation 2, "6727", "DHF"
+exec spUpdateDataValidation 2, "14965", "DHF"
+exec spUpdateDataValidation 2, "14968", "DHF"
+exec spUpdateDataValidation 2, "14972", "DHF"
+exec spUpdateDataValidation 2, "6744", "DHF"
+exec spUpdateDataValidation 2, "6745", "DHF"
+exec spUpdateDataValidation 2, "14975", "DHF"
+exec spUpdateDataValidation 2, "14977", "DHF"
+exec spUpdateDataValidation 2, "14978", "DHF"
+exec spUpdateDataValidation 2, "14979", "DHF"
+exec spUpdateDataValidation 2, "14981", "DHF"
+exec spUpdateDataValidation 2, "14994", "DHF"
+1
+20170401
+20170404
+EXEC spGetQC 1,"20170401","20170404"
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170401","lastEndDate":"20170404"}
+Server is running..
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+1
+20170101
+20170110
+EXEC spGetQC 1,"20170101","20170110"
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170110"}
+1
+20170601
+20170610
+EXEC spGetQC 1,"20170601","20170610"
+1
+20170501
+20170510
+EXEC spGetQC 1,"20170501","20170510"
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170501","lastEndDate":"20170510"}
+1
+20170101
+20170110
+EXEC spGetQC 1,"20170101","20170110"
+1
+20170601
+20170610
+EXEC spGetQC 1,"20170601","20170610"
+2
+20170601
+20170610
+EXEC spGetQC 2,"20170601","20170610"
+3
+20170601
+20170610
+EXEC spGetQC 3,"20170601","20170610"
+2
+20170601
+20170610
+EXEC spGetQC 2,"20170601","20170610"
+1
+20170601
+20170610
+EXEC spGetQC 1,"20170601","20170610"
+Server is running..
+Server is running..
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+1
+20170612
+20170616
+EXEC spGetQC 1,"20170612","20170616"
+1
+20170610
+20170613
+EXEC spGetQC 1,"20170610","20170613"
+df
+2
+20170610
+20170613
+EXEC spGetQC 2,"20170610","20170613"
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170610","lastEndDate":"20170613"}
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170610","lastEndDate":"20170613"}
+2
+20170610
+20170613
+EXEC spGetQC 2,"20170610","20170613"
+df
+df
+2
+20170601
+20170605
+EXEC spGetQC 2,"20170601","20170605"
+df
+exec spUpdateDataValidation 1, "29958", "df"
+exec spUpdateDataValidation 1, "29935", "df"
+exec spUpdateDataValidation 2, "29276", "df"
+exec spUpdateDataValidation 2, "29275", "df"
+exec spUpdateDataValidation 3, "29973", "df"
+exec spUpdateDataValidation 3, "30085", "df"
+df
+exec spUpdateDataValidation 1, "29958", "df"
+exec spUpdateDataValidation 1, "29935", "df"
+exec spUpdateDataValidation 2, "29276", "df"
+exec spUpdateDataValidation 2, "29275", "df"
+exec spUpdateDataValidation 2, "30211", "df"
+exec spUpdateDataValidation 3, "29973", "df"
+exec spUpdateDataValidation 3, "30085", "df"
+df
+exec spUpdateDataValidation 1, "29958", "df"
+exec spUpdateDataValidation 1, "29935", "df"
+exec spUpdateDataValidation 2, "29276", "df"
+exec spUpdateDataValidation 2, "29275", "df"
+exec spUpdateDataValidation 3, "29973", "df"
+exec spUpdateDataValidation 3, "30085", "df"
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170601","lastEndDate":"20170605"}
+{"lastLocation":{"nId":2,"vcLocation":"Electrical Substation"},"lastStartDate":"20170601","lastEndDate":"20170605"}
+Server is running..
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:72:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:84:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:72:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:84:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:72:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:84:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:72:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:84:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:72:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:84:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+Server is running..
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+1
+20170101
+20170110
+EXEC spGetQC 1,"20170101","20170110"
+JT
+exec spUpdateDataValidation 2, "19756", "JT"
+exec spUpdateDataValidation 3, "24857", "JT"
+exec spUpdateDataValidation 4, "16626", "JT"
+exec spUpdateDataValidation 5, "23928", "JT"
+JT
+exec spUpdateDataValidation 1, "19756", "JT"
+exec spUpdateDataValidation 3, "24857", "JT"
+exec spUpdateDataValidation 4, "16626", "JT"
+exec spUpdateDataValidation 5, "23928", "JT"
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170110"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170110"}
+1
+20170101
+20170110
+EXEC spGetQC 1,"20170101","20170110"
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170110"}
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170110"}
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+2
+20170601
+20170610
+EXEC spGetQC 2,"20170601","20170610"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+2
+20170601
+20170610
+EXEC spGetQC 2,"20170601","20170610"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+2
+20170601 0:0:0
+20170610 23:59:59
+EXEC spGetQC 2,"20170601 0:0:0","20170610 23:59:59"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+2
+20170601 0:0:0
+20170610 23:59:59
+EXEC spGetQC 2,"20170601 0:0:0","20170610 23:59:59"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+3
+20170601 0:0:0
+20170610 23:59:59
+EXEC spGetQC 3,"20170601 0:0:0","20170610 23:59:59"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{"lastLocation":{"nId":3,"vcLocation":"Neighbourhood Pole"},"lastStartDate":"20170601 0:0:0","lastEndDate":"20170610 23:59:59"}
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+3
+20170601 0:0:0
+20170610 23:59:59
+EXEC spGetQC 3,"20170601 0:0:0","20170610 23:59:59"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170601 0:0:0
+20170610 23:59:59
+EXEC spGetQC 1,"20170601 0:0:0","20170610 23:59:59"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170601 0:0:0
+20170610 23:59:59
+EXEC spGetQC 1,"20170601 0:0:0","20170610 23:59:59"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170601
+20170610
+EXEC spGetQC 1,"20170601","20170610"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170601
+20170610
+EXEC spGetQC 1,"20170601","20170610"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170601
+20170610
+EXEC spGetQC 1,"20170601","20170610"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170601
+20170610
+EXEC spGetQC 1,"20170601","20170610"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+Server is running..
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:72:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:84:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:124:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ ConnectionError: Connection is closed.
+    at ConnectionError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1424:7)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1297:37)
+    at Request._query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:493:11)
+    at Request.query (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1240:12)
+    at C:\WebApps\qaqcinterface\app.js:175:13
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\WebApps\qaqcinterface\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\WebApps\qaqcinterface\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\WebApps\qaqcinterface\node_modules\express\lib\router\index.js:275:10) code: 'ECONNCLOSED', name: 'ConnectionError' }
+Server is running..
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170102"}
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170102
+EXEC spGetQC 1,"20170101","20170102"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170103
+EXEC spGetQC 1,"20170101","20170103"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170103
+EXEC spGetQC 1,"20170101","20170103"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+1
+20170101
+20170103
+EXEC spGetQC 1,"20170101","20170103"
+{ RequestError: Column name or number of supplied values does not match table definition.
+    at RequestError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\base.js:1480:7)
+    at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:515:15)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+    at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:96:13)
+    at Parser.emit (events.js:188:7)
+  code: 'EREQUEST',
+  number: 213,
+  lineNumber: 76,
+  state: 1,
+  class: 16,
+  serverName: 'NBTSSSQL01\\ENVIRO',
+  procName: 'spGetQC',
+  originalError: 
+   { Error: Column name or number of supplied values does not match table definition.
+       at handleError (C:\WebApps\qaqcinterface\node_modules\mssql\lib\tedious.js:513:19)
+       at emitOne (events.js:96:13)
+       at Connection.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\connection.js:361:16)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at Parser.<anonymous> (C:\WebApps\qaqcinterface\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+       at emitOne (events.js:96:13)
+       at Parser.emit (events.js:188:7)
+       at readableAddChunk (C:\WebApps\qaqcinterface\node_modules\readable-stream\lib\_stream_readable.js:212:18)
+     info: 
+      { number: 213,
+        state: 1,
+        class: 16,
+        message: 'Column name or number of supplied values does not match table definition.',
+        serverName: 'NBTSSSQL01\\ENVIRO',
+        procName: 'spGetQC',
+        lineNumber: 76,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+Server is running..
+1
+20170101
+20170110
+EXEC spGetQC 1,"20170101","20170110"
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170101","lastEndDate":"20170110"}
+1
+20170801
+20170810
+EXEC spGetQC 1,"20170801","20170810"
+{"lastLocation":{"nId":1,"vcLocation":"Brooksbank"},"lastStartDate":"20170801","lastEndDate":"20170810"}
+3
+20170801
+20170810
+EXEC spGetQC 3,"20170801","20170810"

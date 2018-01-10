@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+ <title>Neptune</title>
+ <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+ 	<link rel="stylesheet" href="/css">
+	  <!-- <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>   -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA83zsicoLkhW8Xk8BoKnebo1DY2403WjY&callback" 
+          type="text/javascript"></script>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>  
+	
+</head> 
+
+<style>
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+</style>
+
+<body>
+	<div class="topnav" id="myTopnav" >
+  <a href="qa">QA</a>
+  <a href="bulldozing">Bulldozing</a>
+  <a href="aq-map">AQ Map</a>
+  <a href="ssrs">SSRS</a>
+</div>
+
+<!--chart and inputs starts here-->
+
+<div id="brooksbank-container" style="float: left;width: 40%">
+
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		
+	
+ 
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+ <script>
+  $( function() {
+    $( "#startdatepicker" ).datepicker({ dateFormat: "yymmdd" }).val();
+	$( "#enddatepicker" ).datepicker({ dateFormat: "yymmdd" }).val();
+  } );
+  
+  
+  
+  
+  </script>
+
+
+<script src="/angular"></script>
+<script type="text/javascript" src="/gcharts"></script>
+<script src="/chartjs"></script>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+    <div ng-app="myApp" ng-controller="qualityControl">
+		<table width="100%" cellspacing="0" cellpadding="0" >
+			<tr>
+				<td style="background-color:#118D99;" align= "center" width="30%">
+					<font color="white">LOCATION:</font><br><select style="margin-bottom: 10px;"  
+					 class="selectOption" ng-model="selectedLocation.location" ng-options="option.vcLocation for option in selectedLocation.options track by option.nId" ></select><br>
+					<!-- {{menuOptions}}:{{selectedLocation.location.nId}} -->
+				    <font color="white">START DATE:</font><br><input style="margin-bottom: 10px;"  type="text" ng-model="dtStart"  id="startdatepicker"size="17"><br>
+					<font color="white">END DATE:</font><br><input style="margin-bottom: 10px;"  type="text" ng-model="dtEnd" id="enddatepicker"size="17">			
+
+						<style>
+						.button {
+							background-color: #FFFFFF; 
+
+							color: white;
+							
+							text-align: center;
+						   
+							font-size: 14px;
+							margin: 10px;
+							-webkit-transition-duration: 0.4s;
+							transition-duration: 0.4s;
+							cursor: pointer;
+						}
+
+						.button1 {
+							background-color: white; 
+							color: #118D99; 
+							border: 2px solid #118D99;
+						}
+
+						.button1:hover {
+							background-color: #228B22;
+							color: white;
+						}
+						</style>
+
+						<br>
+			
+						
+						<button style="height:auto;width:155px" class="button button1" ng-click="postEbamSearchCriteria()">UPDATE SEARCH CRITERIA</button>
+						
+						
+						<!--change location-->
+						<button id="link-brooksbank" style="height:auto;width:155px;display:none" class="button button1" ng-click="changeLocationBB(); options=1;postEbamSearchCriteria()">change location bb
+						</button>
+						
+						<button id="link-electrical" style="height:auto;width:155px;display:none" class="button button1" ng-click="changeLocationES(); options=1;postEbamSearchCriteria()">change location es
+						</button>
+						
+						<button id="link-neighbourhood" style="height:auto;width:155px;display:none" class="button button1" ng-click="changeLocationNP(); options=1;postEbamSearchCriteria() ">change location np
+						</button>	
+				</td>
+			<tr>
+				<td>
+					<canvas id="chartJSContainer">
+				</td>
+			</tr>			
+		</table>
+
+		<br>
+
+    </div>
+	
+	</div>
+
+<div id="neighbourhood-container" style="float: left;width: 40%; display: none">
+<!--neighbourhood ends here-->
+neighbourhood content here
+</div>
+
+<div id="electrical-container" style="float: left;width: 40%; display: none">
+<!--electrical ends here-->
+electrical content here
+</div>
+
+<script>
+//scoping JSON data
+var app = angular.module('myApp', []);
+app.controller('qualityControl', function($scope, $http) {
+
+	$scope.init = function(){
+		$scope.selectedLocation = {options: {}, location: {}};
+
+		$http.get("/getLocations").then(function(response) {
+			if ($scope.selectedLocation == null){
+				$scope.selectedLocation = {};
+			}
+			$scope.selectedLocation.options = response.data.recordset;
+			//$scope.locations = response.data.recordset;
+		});
+
+		$http.get("/getOptions").then(function(response) {
+			$scope.menuOptions = response.data.recordset;
+		});
+		
+		
+		$http.get("/EBAM").then(function(response) {
+			$scope.recordset = response.data.recordset;
+			angular.forEach($scope.recordset, function(obj){
+				obj.PM25qa={"nId":obj.PM25qa};
+				obj.PM10qa={"nId":obj.PM10qa};
+				//Using dot notation
+				obj.qaOptions = $scope.menuOptions;
+			});
+		});
+
+		$http.get("/initSearch").then(function(response) {
+			$scope.selectedLocation.location.nId = response.data.lastLocation.nId;
+			$scope.selectedLocation.location.vcLocation = response.data.lastLocation.vcLocation;
+			$scope.dtStart = response.data.lastStartDate;
+			$scope.dtEnd = response.data.lastEndDate;
+		});
+	}
+
+    $scope.getData = function(){
+        $http.get("/EBAM").then(function(response) {
+            $scope.recordset = response.data.recordset;
+			if ($scope.recordset.length==0) {
+				alert("No data found for timeframe");
+			};
+            angular.forEach($scope.recordset, function(obj){
+                obj.PM25qa={"nId":obj.PM25qa};
+                obj.PM10qa={"nId":obj.PM10qa};
+                //Using dot notation
+                obj.qaOptions = $scope.menuOptions;
+            });
+            
+			$scope.drawChartJS($scope.recordset);
+
+        });
+    };
+	
+	$scope.init();
+	$scope.getData();
+
+	$scope.lineOptions = {};
+	
+	$scope.ctx = document.getElementById('chartJSContainer').getContext('2d');
+	$scope.lineChart = new Chart($scope.ctx,$scope.lineOptions);
+	
+	
+	// change location 
+	
+	$scope.changeLocationBB = function(){
+	
+			//alert("set location to brooksbank");
+			$scope.selectedLocation.location.nId=1;
+		}
+
+		
+	$scope.changeLocationES = function(){
+			//alert("set location to electrical substation");
+			$scope.selectedLocation.location.nId=2;
+		}
+			
+		
+	$scope.changeLocationNP = function(){
+			//alert("set location to neighbourhood pole");
+			$scope.selectedLocation.location.nId=3;
+		}
+			
+	
+	
+	$scope.drawChartJS = function(jsonDataset){
+        //google charts
+        //convert JSON to array
+        var arr = Object.values(jsonDataset);
+        var dataArr = [];
+		var timeArr = [];
+		var trendA = [];
+		var trendB = [];
+		var trendC = [];
+		var trendD = [];
+		
+			for(var i in arr){
+            var t = arr[i].dt.split(/[- :]/);
+			var tUTC = new Date(t[0], t[1]-1, t[2], t[3], t[4], t[5]);
+			var time = arr[i].dt;
+            //var d = new Date(Date.UTC(t[0], t[1]-1, t[2], t[3], t[4], t[5]));
+            
+            var validPM25Conc = arr[i].PM25conc;
+            var validPM10Conc = arr[i].PM10conc;
+			var validPMOSConc = arr[i].PMconc;
+			var validPMLimit = arr[i].PMlimit;
+
+            if(arr[i].PM25qa.nId == 2 || arr[i].PM25qa.nId == 3){
+                //alert('bad data ' + validPM25Conc);
+                validPM25Conc = null;
+            }
+            if(arr[i].PM10qa.nId == 2 || arr[i].PM10qa.nId == 3){
+                //alert('bad data ' + validPM25Conc);
+                validPM10Conc = null;
+            }
+        
+            dataArr.push(
+                [new Date(t[0], t[1]-1, t[2], t[3], t[4], t[5]), 
+                //arr[i].CH1_ConcRT_ugM3, 
+                //arr[i].CH1_ConcRT_ugM3_MA24 
+                validPM25Conc, 
+                validPM10Conc
+                ]
+            );
+			timeArr[i]=time;
+			trendA[i]=validPM25Conc;
+			trendB[i]=validPM10Conc;
+			trendC[i]=validPMOSConc;
+			trendD[i]=validPMLimit;
+        }
+		
+		$scope.lineOptions = {
+			type: 'line',
+			data: {
+				labels: timeArr,
+				datasets: [
+					{
+						label: 'PM2.5',
+						fill: false,
+						lineTension: 0.1,
+						backgroundColor: "rgba(75,192,192,0.4)",
+						borderColor: "rgba(75,192,192,1)",
+						borderCapStyle: 'butt',
+						borderDash: [],
+						borderDashOffset: 0.0,
+						borderJoinStyle: 'miter',
+						pointBorderColor: "rgba(75,192,192,1)",
+						pointBackgroundColor: "#fff",
+						pointBorderWidth: 1,
+						pointHoverRadius: 5,
+						pointHoverBackgroundColor: "rgba(75,192,192,1)",
+						pointHoverBorderColor: "rgba(220,220,220,1)",
+						pointHoverBorderWidth: 2,
+						pointRadius: 1,
+						pointHitRadius: 10,
+						data: trendA,
+						spanGaps: false,
+					},	
+					{
+						label: 'PM10',
+						fill: false,
+						lineTension: 0.1,
+						backgroundColor: "rgba(219,29,29,0.4",
+						borderColor: "rgba(219,29,29,1)",
+						borderCapStyle: 'butt',
+						borderDash: [],
+						borderDashOffset: 0.0,
+						borderJoinStyle: 'miter',
+						pointBorderColor: "rgba(219,29,29,1)",
+						pointBackgroundColor: "#fff",
+						pointBorderWidth: 1,
+						pointHoverRadius: 5,
+						pointHoverBackgroundColor: "rgba(219,29,29,1)",
+						pointHoverBorderColor: "rgba(220,220,220,1)",
+						pointHoverBorderWidth: 2,
+						pointRadius: 1,
+						pointHitRadius: 10,
+						data: trendB,
+						spanGaps: false,
+					},
+					{
+						label: 'PM On Site',
+						fill: false,
+						lineTension: 0.1,
+						backgroundColor: "rgba(0, 153, 51,0.4)",
+						borderColor: "rgba(0, 153, 51,1)",
+						borderCapStyle: 'butt',
+						borderDash: [],
+						borderDashOffset: 0.0,
+						borderJoinStyle: 'miter',
+						pointBorderColor: "rgba(0, 153, 51,1)",
+						pointBackgroundColor: "#fff",
+						pointBorderWidth: 1,
+						pointHoverRadius: 5,
+						pointHoverBackgroundColor: "rgba(0, 153, 51,1)",
+						pointHoverBorderColor: "rgba(220,220,220,1)",
+						pointHoverBorderWidth: 2,
+						pointRadius: 1,
+						pointHitRadius: 10,
+						data: trendC,
+						spanGaps: false,
+					},
+					{
+						label: 'PM Limit',
+						fill: false,
+						lineTension: 0.1,
+						backgroundColor: "rgba(0,0,0,0.4",
+						borderColor: "rgba(0,0,0,1)",
+						borderCapStyle: 'butt',
+						borderDash: [],
+						borderDashOffset: 0.0,
+						borderJoinStyle: 'miter',
+						pointBorderColor: "rgba(0,0,0,1)",
+						pointBackgroundColor: "#fff",
+						pointBorderWidth: 1,
+						pointHoverRadius: 5,
+						pointHoverBackgroundColor: "rgba(0,0,0,1)",
+						pointHoverBorderColor: "rgba(220,220,220,1)",
+						pointHoverBorderWidth: 2,
+						pointRadius: 1,
+						pointHitRadius: 10,
+						data: trendD,
+						spanGaps: false,
+					}
+				]
+			},
+			options: {
+				scales: {
+					yAxes: [{
+					ticks: {
+								reverse: false
+					}
+				  }]
+				},
+				tooltips: {
+					mode: 'label'
+				},
+				responsive: true,
+				maintainAspectRatio: true
+			}
+		}
+		
+		$scope.ctx = document.getElementById('chartJSContainer').getContext('2d');
+		if($scope.lineChart !== undefined || $scope.lineChart !== null){
+            $scope.lineChart.destroy();
+		}
+		$scope.lineChart = new Chart($scope.ctx,$scope.lineOptions);
+    };
+
+    
+    $scope.postEbamSearchCriteria = function(){
+        var dataObj = {
+            location: $scope.selectedLocation.location,
+			dtStart : $scope.dtStart,
+			dtEnd : $scope.dtEnd
+		};	
+		var res = $http.post('/postEbamSearchCriteria', dataObj);
+		res.success(function(data, status, headers, config) {
+            //alert(JSON.stringify(data.recordset));
+			$scope.recordset = data.recordset;
+			if ($scope.recordset.length==0) {
+				alert("No data found for timeframe");
+			};
+			
+            angular.forEach($scope.recordset, function(obj){
+                obj.PM25qa={"nId":obj.PM25qa};
+                obj.PM10qa={"nId":obj.PM10qa};
+                //Using dot notation
+                obj.qaOptions = $scope.menuOptions;
+            });
+            
+			$scope.drawChartJS($scope.recordset);
+            //alert( "message sent");
+		});
+		res.error(function(data, status, headers, config) {
+			//alert( "failure message: " + JSON.stringify({data: data}));
+		});	
+    };
+
+    $scope.selectBoxesObj = {};
+
+    $scope.getSelectValues = function(){
+        $scope.selectBoxesObj = {};
+        if ($scope.userInitials != null){
+            angular.forEach($scope.recordset, function(obj){
+            if(obj.PM25qa.nId != null){
+                if($scope.selectBoxesObj[String(obj.PM25qa.nId)] == null){
+                    $scope.selectBoxesObj[String(obj.PM25qa.nId)] = [];
+                };
+                $scope.selectBoxesObj[String(String(obj.PM25qa.nId))].push(obj.PM25nId);
+            }
+            if(obj.PM10qa.nId != null){
+                if($scope.selectBoxesObj[String(obj.PM10qa.nId)] == null){
+                    $scope.selectBoxesObj[String(obj.PM10qa.nId)] = [];
+                };
+                $scope.selectBoxesObj[String(String(obj.PM10qa.nId))].push(obj.PM10nId);
+            };
+        });
+        
+		$scope.drawChartJS($scope.recordset);
+        $scope.postDataValidation();
+        } else {
+            alert("User Initials cannot be empty");
+        };
+    };
+
+    $scope.setSelectValues = function(PM){
+        angular.forEach($scope.recordset, function(obj){
+            if(PM==1){
+                obj.PM25qa.nId = $scope.setAllSelects.nId;
+                obj.PM25initials = $scope.userInitials;
+            } else if(PM==2){
+                obj.PM10qa.nId = $scope.setAllSelects.nId;
+                obj.PM10initials = $scope.userInitials;
+            };
+        });
+        
+		$scope.drawChartJS($scope.recordset);
+        $scope.postDataValidation();
+    };
+
+
+    $scope.postDataValidation = function(){
+        var dataObj = {update: $scope.selectBoxesObj, initials:$scope.userInitials};
+		var res = $http.post('/postDataValidation', dataObj);
+		res.success(function(data, status, headers, config) {
+            //alert(JSON.stringify(data.recordset));
+            //alert("Update Successful");
+            $scope.getData();
+		});
+		res.error(function(data, status, headers, config) {
+			//alert( "failure message: " + JSON.stringify({data: data}));
+		});	
+    };
+
+	$scope.PM25optionChanged = function(){
+		//alert(JSON.stringify(this.record));
+		this.record.PM25initials = $scope.userInitials;
+	};
+
+	$scope.PM10optionChanged = function(){
+		//alert(JSON.stringify(this.record));
+		this.record.PM10initials = $scope.userInitials;
+	};
+});
+</script>
+</div>
+<!--chart and inputs ends here-->
+<style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 90%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  <div id="map"></div>
+  
+
+
+  
+  
+  <script type="text/javascript">
+    var locations = [
+      ['Electrical Substation', 49.304841, -123.049946, 4, 'link-electrical', 'Electrical Substation'],
+      ['Neighbourhood Pole', 49.305365, -123.053044, 5, 'link-neighbourhood', 'Neighbourhood Pole'],
+	  ['Brooksbank', 49.306757, -123.051091, 7, 'link-brooksbank', 'Brooksbank'],
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+     zoom: 17,
+      center: new google.maps.LatLng(49.306, -123.049946),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+	  
+	for (i = 0; i < locations.length; i++) {  
+        marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+		label: {
+			color: 'black',
+			fontWeight: 'bold',
+			text: locations[i][0],
+		},
+        map: map,
+      });
+
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+	  
+	  return function()
+	  {
+          infowindow.setContent(locations[i][0]);
+          infowindow.open(map, marker);
+		   document.getElementById(locations[i][4]).click();
+        }
+      }
+	  )(marker, i));
+    }
+	
+	
+  </script>
+  
+  
+</body>
+</html>
