@@ -14,7 +14,7 @@ body {font-size:16px;}
 <body>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-teal w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
     <h3 class="w3-padding-64"><b>Neptune<br>Bulk Terminals</b></h3>
@@ -30,8 +30,8 @@ body {font-size:16px;}
 </nav>
 
 <!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
+<header class="w3-container w3-top w3-hide-large w3-teal w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-teal w3-margin-right" onclick="w3_open()">☰</a>
   <span>Neptune Bulk Terminals</span>
 </header>
 
@@ -44,28 +44,32 @@ body {font-size:16px;}
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
     <h1 class="w3-jumbo"><b>Air Quality</b></h1>
-    <h1 class="w3-xxxlarge w3-text-blue"><b>Monitoring System.</b></h1>
-    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <h1 class="w3-xxxlarge w3-text-teal"><b>Monitoring System.</b></h1>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
   </div>
   
   <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-half">
 	<a href="http://localhost:5000/qa">
-      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="QA">
+      <img src="https://assets.porttechnology.org/images/made/images/uploads/news/Coal.Neptune_.1__730_535_84_c1.jpeg" style="width:510px;height:340px;" alt="QA">
 	</a>
+	<div class="centered">QA</div>
 	<a href="http://localhost:5000/bulldozing">
-		<img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bulldozing">
+		<img src="http://www.carverconstruction.ca/wp-content/uploads/2017/04/Neptune-Terminals.jpg" style="width:510px;height:340px;" alt="Bulldozing">
 	 </a>
+		<div class="centered">Bulldozing</div>	 
     </div>
 
     <div class="w3-half">
 	<a href="http://localhost:5000/srss">
-		<img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="SSRS">
+		<img src="https://c1.staticflickr.com/4/3690/8967255831_85ffc88681_b.jpg" style="width:510px;height:340px;" alt="SSRS">
 	</a>
+	<div class="centered">SSRS</div>
 	<a href="http://localhost:5000/aq-map">
-		<img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="AQ Map">
+		<img src="http://www.neptuneterminals.com/wp-content/uploads/2013/04/updates-term.png" style="width:510px;height:340px;"  alt="AQ Map">
 	</a>
+	<div class="centered">AQ-Map</div>
     </div>
   </div>
 
@@ -80,30 +84,30 @@ body {font-size:16px;}
 
   <!-- About US -->
   <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-blue"><b>About Us.</b></h1>
-    <hr style="width:50px;border:5px solid blue" class="w3-round">
-    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
+    <h1 class="w3-xxxlarge w3-text-teal"><b>About Us.</b></h1>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
+    <p>Neptune Terminals plays an integral role in Canada’s economy by helping to move Canadian exports to global markets in Asia, South America and Europe. Located on Vancouver’s North Shore just west of the Iron Workers’ Memorial Bridge and part of the Port of Vancouver, Neptune Terminals is one of the largest multi-product bulk terminals in North America.</p>
   </div>
   
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-blue"><b>Contact.</b></h1>
-    <hr style="width:50px;border:5px solid blue" class="w3-round">
-    <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+    <h1 class="w3-xxxlarge w3-text-teal"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid teal" class="w3-round">
+    <p>Neptune Bulk Terminals: 1001 Low Level Rd, North Vancouver, BC V7L 1A7</p>
     <form action="/action_page.php" target="_blank">
       <div class="w3-section">
         <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" requiblue>
+        <input class="w3-input w3-border" type="text" name="Name" requiteal>
       </div>
       <div class="w3-section">
         <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" requiblue>
+        <input class="w3-input w3-border" type="text" name="Email" requiteal>
       </div>
       <div class="w3-section">
         <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" requiblue>
+        <input class="w3-input w3-border" type="text" name="Message" requiteal>
       </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-blue w3-margin-bottom">Send Message</button>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-teal w3-margin-bottom">Send Message</button>
     </form>  
   </div>
 
@@ -111,7 +115,7 @@ body {font-size:16px;}
 </div>
 
 <!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Poweblue by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Poweteal by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
 
 <script>
 // Script to open and close sidebar

@@ -180,7 +180,7 @@ app.get("/bulldozingData", function (req, res) {
 });
 */
 
-/
+
 app.get("/bulldozingData", function (req, res) {
     var request = new sql.Request();
    //inputs
